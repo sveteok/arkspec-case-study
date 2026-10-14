@@ -135,8 +135,10 @@ These decks explain the product and business use case. The README keeps the engi
 
 A narrated overview of ArkSpec's operating lifecycle, including site setup, worker execution, evidence, supervision, incidents, client-safe publication and pilot evaluation.
 
-- **English:** [Watch presentation](https://youtu.be/0VJGZleA7Jw) · [Read transcript (PDF)](docs/transcripts/ArkSpec-v6.3-EN-transcript.pdf) · [Download subtitles (SRT)](docs/subtitles/ArkSpec-v6.3-EN-subtitles.srt?raw=1)
-- **Suomi:** [Katso esittely](https://youtu.be/D12gEBLbS-8) · [Lue litterointi (PDF)](docs/transcripts/ArkSpec-v6.3-FI-transcript.pdf) · [Lataa tekstitykset (SRT)](docs/subtitles/ArkSpec-v6.3-FI-subtitles.srt?raw=1)
+- **English:** [Watch presentation](https://youtu.be/0VJGZleA7Jw) · [Read transcript (PDF)](docs/transcripts/ArkSpec-v6.3-EN-transcript.pdf) · [Download subtitles (SRT)](https://raw.githubusercontent.com/sveteok/arkspec-case-study/refs/heads/main/docs/subtitles/ArkSpec-v6.3-EN-subtitles.srt)
+- **Suomi:** [Katso esittely](https://youtu.be/D12gEBLbS-8) · [Lue litterointi (PDF)](docs/transcripts/ArkSpec-v6.3-FI-transcript.pdf) · [Lataa tekstitykset (SRT)](https://raw.githubusercontent.com/sveteok/arkspec-case-study/refs/heads/main/docs/subtitles/ArkSpec-v6.3-FI-subtitles.srt)
+
+If subtitles open as text in your browser, use **Save As** to save the file with the `.srt` extension.
 
 All operational data shown is synthetic or sanitized. Selected demonstration assets were created with AI assistance.
 
