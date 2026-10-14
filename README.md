@@ -131,7 +131,7 @@ Before adding screenshots, remove or replace real customer names, employee names
 
 These decks explain the product and business use case. The README keeps the engineering narrative primary, while the presentations provide supporting product context.
 
-Earlier presentation versions are retained in the [presentation archive](docs/presentations/archive/).
+The v6.1 decks are retained in the [presentation archive](docs/presentations/archive/) for historical reference.
 
 ## Pilot demonstration - English and Finnish
 
@@ -144,6 +144,8 @@ ArkSpec's operating lifecycle, from site setup and field execution to evidence, 
 **Suomi · 6:42**
 
 [Katso esittely](https://youtu.be/D12gEBLbS-8) · [Lue litterointi (PDF)](docs/transcripts/ArkSpec-v6.3-FI-transcript.pdf) · [Lataa tekstitykset (SRT)][subtitles-fi]
+
+On YouTube, use the [CC control](https://support.google.com/youtube/answer/100078) to turn captions on or off when available.
 
 If subtitles open as text in your browser, use **Save As** to save the file with the `.srt` extension.
 
@@ -166,20 +168,20 @@ This public case study does not include:
 
 ```text
 arkspec-case-study/
-|-- README.md
-`-- docs/
-    |-- presentations/
-    |   |-- archive/
-    |   |-- arkspec-pilot-prospect-presentation-v6.3-EN.pdf
-    |   `-- arkspec-pilot-prospect-presentation-v6.3-FI.pdf
-    |-- screenshots/
-    |   `-- arkspec-pilot-overview.png
-    |-- subtitles/
-    |   |-- ArkSpec-v6.3-EN-subtitles.srt
-    |   `-- ArkSpec-v6.3-FI-subtitles.srt
-    `-- transcripts/
-        |-- ArkSpec-v6.3-EN-transcript.pdf
-        `-- ArkSpec-v6.3-FI-transcript.pdf
+├── README.md
+└── docs/
+    ├── presentations/
+    │   ├── archive/
+    │   ├── arkspec-pilot-prospect-presentation-v6.3-EN.pdf
+    │   └── arkspec-pilot-prospect-presentation-v6.3-FI.pdf
+    ├── screenshots/
+    │   └── arkspec-pilot-overview.png
+    ├── subtitles/
+    │   ├── ArkSpec-v6.3-EN-subtitles.srt
+    │   └── ArkSpec-v6.3-FI-subtitles.srt
+    └── transcripts/
+        ├── ArkSpec-v6.3-EN-transcript.pdf
+        └── ArkSpec-v6.3-FI-transcript.pdf
 ```
 
 ## About Me
