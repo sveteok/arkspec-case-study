@@ -131,12 +131,19 @@ Before adding screenshots, remove or replace real customer names, employee names
 
 These decks explain the product and business use case. The README keeps the engineering narrative primary, while the presentations provide supporting product context.
 
+Earlier presentation versions are retained in the [presentation archive](docs/presentations/archive/).
+
 ## Pilot demonstration - English and Finnish
 
-A narrated overview of ArkSpec's operating lifecycle, including site setup, worker execution, evidence, supervision, incidents, client-safe publication and pilot evaluation.
+ArkSpec's operating lifecycle, from site setup and field execution to evidence, supervision, incidents, controlled client publication and pilot evaluation.
 
-- **English:** [Watch presentation](https://youtu.be/0VJGZleA7Jw) · [Read transcript (PDF)](docs/transcripts/ArkSpec-v6.3-EN-transcript.pdf) · [Download subtitles (SRT)](https://raw.githubusercontent.com/sveteok/arkspec-case-study/refs/heads/main/docs/subtitles/ArkSpec-v6.3-EN-subtitles.srt)
-- **Suomi:** [Katso esittely](https://youtu.be/D12gEBLbS-8) · [Lue litterointi (PDF)](docs/transcripts/ArkSpec-v6.3-FI-transcript.pdf) · [Lataa tekstitykset (SRT)](https://raw.githubusercontent.com/sveteok/arkspec-case-study/refs/heads/main/docs/subtitles/ArkSpec-v6.3-FI-subtitles.srt)
+**English · 6:23**
+
+[Watch presentation](https://youtu.be/0VJGZleA7Jw) · [Read transcript (PDF)](docs/transcripts/ArkSpec-v6.3-EN-transcript.pdf) · [Download subtitles (SRT)][subtitles-en]
+
+**Suomi · 6:42**
+
+[Katso esittely](https://youtu.be/D12gEBLbS-8) · [Lue litterointi (PDF)](docs/transcripts/ArkSpec-v6.3-FI-transcript.pdf) · [Lataa tekstitykset (SRT)][subtitles-fi]
 
 If subtitles open as text in your browser, use **Save As** to save the file with the `.srt` extension.
 
@@ -162,8 +169,7 @@ arkspec-case-study/
 |-- README.md
 `-- docs/
     |-- presentations/
-    |   |-- arkspec-pilot-prospect-presentation-v6.1.pdf
-    |   |-- arkspec-pilot-prospect-presentation-fi-v6.1.pdf
+    |   |-- archive/
     |   |-- arkspec-pilot-prospect-presentation-v6.3-EN.pdf
     |   `-- arkspec-pilot-prospect-presentation-v6.3-FI.pdf
     |-- screenshots/
@@ -183,3 +189,6 @@ I am a Senior Full-Stack Software Engineer based in Oulu, Finland, with more tha
 I work on web applications, SaaS products, cloud systems, and end-to-end product engineering: from requirements and architecture through implementation, deployment, and production operation.
 
 GitHub: [github.com/sveteok](https://github.com/sveteok)
+
+[subtitles-en]: https://raw.githubusercontent.com/sveteok/arkspec-case-study/refs/heads/main/docs/subtitles/ArkSpec-v6.3-EN-subtitles.srt
+[subtitles-fi]: https://raw.githubusercontent.com/sveteok/arkspec-case-study/refs/heads/main/docs/subtitles/ArkSpec-v6.3-FI-subtitles.srt
