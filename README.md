@@ -17,14 +17,14 @@ _Preview image exported from the public pilot presentation. The visible data is 
 
 ## Case Study At A Glance
 
-| Area | Summary |
-| --- | --- |
-| Product | SaaS operating layer for cleaning and facility service operations |
-| Users | Cleaners, supervisors, operations managers, customer viewers, platform admins |
-| Core value | Turn distributed site work into verifiable, traceable, customer-visible operations |
-| Repository type | Public engineering case study; production implementation remains private |
-| My role | Product owner, architect, full-stack engineer, and production operator |
-| Public materials | English and Finnish pilot/prospect presentations, sanitized visual overview |
+| Area             | Summary                                                                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Product          | SaaS operating layer for cleaning and facility service operations                                                        |
+| Users            | Cleaners, supervisors, operations managers, customer viewers, platform admins                                            |
+| Core value       | Turn distributed site work into verifiable, traceable, customer-visible operations                                       |
+| Repository type  | Public engineering case study; production implementation remains private                                                 |
+| My role          | Product owner, architect, full-stack engineer, and production operator                                                   |
+| Public materials | English and Finnish presentation decks, narrated pilot demonstrations, transcripts, subtitles, sanitized visual overview |
 
 ## The Problem
 
@@ -126,10 +126,19 @@ Before adding screenshots, remove or replace real customer names, employee names
 
 ## Public Presentations
 
-- [Pilot / Prospect Presentation - English v6.1](docs/presentations/arkspec-pilot-prospect-presentation-v6.1.pdf)
-- [Pilotti- / prospektiesitys - Finnish v6.1](docs/presentations/arkspec-pilot-prospect-presentation-fi-v6.1.pdf)
+- [Pilot / Prospect Presentation - English v6.3](docs/presentations/arkspec-pilot-prospect-presentation-v6.3-EN.pdf)
+- [Pilotti- / prospektiesitys - Finnish v6.3](docs/presentations/arkspec-pilot-prospect-presentation-v6.3-FI.pdf)
 
 These decks explain the product and business use case. The README keeps the engineering narrative primary, while the presentations provide supporting product context.
+
+## Pilot demonstration - English and Finnish
+
+A narrated overview of ArkSpec's operating lifecycle, including site setup, worker execution, evidence, supervision, incidents, client-safe publication and pilot evaluation.
+
+- **English:** [Watch presentation](https://youtu.be/0VJGZleA7Jw) · [Read transcript (PDF)](docs/transcripts/ArkSpec-v6.3-EN-transcript.pdf) · [Download subtitles (SRT)](docs/subtitles/ArkSpec-v6.3-EN-subtitles.srt?raw=1)
+- **Suomi:** [Katso esittely](https://youtu.be/D12gEBLbS-8) · [Lue litterointi (PDF)](docs/transcripts/ArkSpec-v6.3-FI-transcript.pdf) · [Lataa tekstitykset (SRT)](docs/subtitles/ArkSpec-v6.3-FI-subtitles.srt?raw=1)
+
+All operational data shown is synthetic or sanitized. Selected demonstration assets were created with AI assistance.
 
 ## Private / Public Boundary
 
@@ -152,9 +161,17 @@ arkspec-case-study/
 `-- docs/
     |-- presentations/
     |   |-- arkspec-pilot-prospect-presentation-v6.1.pdf
-    |   `-- arkspec-pilot-prospect-presentation-fi-v6.1.pdf
-    `-- screenshots/
-        `-- arkspec-pilot-overview.png
+    |   |-- arkspec-pilot-prospect-presentation-fi-v6.1.pdf
+    |   |-- arkspec-pilot-prospect-presentation-v6.3-EN.pdf
+    |   `-- arkspec-pilot-prospect-presentation-v6.3-FI.pdf
+    |-- screenshots/
+    |   `-- arkspec-pilot-overview.png
+    |-- subtitles/
+    |   |-- ArkSpec-v6.3-EN-subtitles.srt
+    |   `-- ArkSpec-v6.3-FI-subtitles.srt
+    `-- transcripts/
+        |-- ArkSpec-v6.3-EN-transcript.pdf
+        `-- ArkSpec-v6.3-FI-transcript.pdf
 ```
 
 ## About Me

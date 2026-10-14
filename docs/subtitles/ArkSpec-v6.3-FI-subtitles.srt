@@ -1,0 +1,383 @@
+1
+00:00:01,000 --> 00:00:06,284
+ArkSpec on operatiivinen ohjauskerros eri toimipisteissä työskenteleville
+
+2
+00:00:06,404 --> 00:00:07,543
+palvelutiimeille.
+
+3
+00:00:07,663 --> 00:00:12,503
+Ajatus on yhdistää koko operatiivinen elinkaari — suunnittelusta ja
+
+4
+00:00:12,623 --> 00:00:17,907
+kenttätyöstä todentamiseen, seurantaan ja hallittuun asiakasnäkyvyyteen —
+
+5
+00:00:18,027 --> 00:00:21,683
+niin, että työn konteksti säilyy vaiheesta toiseen.
+
+6
+00:00:21,803 --> 00:00:27,013
+Kyse ei siis ole vain uudesta tarkistuslista- tai raportointityökalusta.
+
+7
+00:00:27,133 --> 00:00:32,047
+ArkSpec yhdistää ketjun: Suunnittele, Toteuta, Todenna, Seuraa, Jaa.
+
+8
+00:00:35,033 --> 00:00:39,145
+Useimmilla operatiivisilla tiimeillä on jo paljon työkaluja.
+
+9
+00:00:39,265 --> 00:00:43,165
+Haasteena on, että kokonaiskuva jää silti pirstaleiseksi.
+
+10
+00:00:43,285 --> 00:00:48,455
+Ohjeet ja tarkistuslistat ovat yhdessä paikassa, kuvat toisessa, poikkeamia
+
+11
+00:00:48,575 --> 00:00:52,969
+käsitellään viesteissä ja asiakasraportointi kootaan usein käsin
+
+12
+00:00:53,089 --> 00:00:53,815
+jälkikäteen.
+
+13
+00:00:53,935 --> 00:00:59,034
+Silloin työn todentaminen vie aikaa ja asiakkaalle päädytään joko jakamaan
+
+14
+00:00:59,154 --> 00:01:03,971
+liikaa sisäistä tietoa tai rakentamaan erillisiä raportteja käsityönä.
+
+15
+00:01:04,091 --> 00:01:07,780
+ArkSpec tekee itse työnkulusta yhden totuuden lähteen.
+
+16
+00:01:10,000 --> 00:01:12,347
+Tässä näkyy tuotteen perusmalli.
+
+17
+00:01:12,467 --> 00:01:17,743
+Ensin määritetään toimipisteet, alueet, tiimit ja uudelleenkäytettävät
+
+18
+00:01:17,863 --> 00:01:18,669
+prosessit.
+
+19
+00:01:18,789 --> 00:01:24,450
+Työ toteutetaan suorituksina, joille on määritetty vastuuhenkilö tai tiimi.
+
+20
+00:01:24,570 --> 00:01:28,382
+Kentällä tallennetaan tarkistuslistat ja todisteet.
+
+21
+00:01:28,502 --> 00:01:32,854
+Esihenkilö seuraa suorituksia, poikkeamia ja raportointia.
+
+22
+00:01:32,974 --> 00:01:37,633
+Lopuksi asiakkaalle voidaan julkaista erikseen rajattu näkymä.
+
+23
+00:01:37,753 --> 00:01:42,953
+Oleellista on, että kyse ei ole erillisistä moduuleista, vaan samasta
+
+24
+00:01:43,073 --> 00:01:44,880
+operatiivisesta ketjusta.
+
+25
+00:01:48,067 --> 00:01:52,229
+Ennen työn aloittamista organisaatio voidaan mallintaa todellisen
+
+26
+00:01:52,349 --> 00:01:55,720
+toimintaympäristön mukaan toimipisteiksi ja alueiksi.
+
+27
+00:01:55,840 --> 00:01:58,685
+Toistuvasta työstä rakennetaan prosessimalli.
+
+28
+00:01:58,805 --> 00:02:03,494
+Vakaa versio julkaistaan käyttöön, samalla kun seuraavaa versiota voidaan
+
+29
+00:02:03,614 --> 00:02:05,799
+kehittää turvallisesti luonnoksena.
+
+30
+00:02:05,919 --> 00:02:10,279
+Näin prosessia voidaan parantaa ilman, että jo käynnissä olevan työn
+
+31
+00:02:10,399 --> 00:02:12,980
+toimintamalli muuttuu kesken suorituksen.
+
+32
+00:02:16,000 --> 00:02:19,474
+Työntekijälle näkymä on tarkoituksella yksinkertainen.
+
+33
+00:02:19,594 --> 00:02:23,135
+Hän näkee vain työn, johon hänellä on oikeus vaikuttaa.
+
+34
+00:02:23,255 --> 00:02:27,661
+Tässä demossa työntekijälle näkyy kolme rajattua suoritusta ja viisi
+
+35
+00:02:27,781 --> 00:02:32,387
+tehtävää, kun taas vain esihenkilölle tarkoitetut suoritukset eivät näy
+
+36
+00:02:32,507 --> 00:02:33,185
+lainkaan.
+
+37
+00:02:33,305 --> 00:02:36,846
+Käyttöliittymä toimii responsiivisesti myös mobiilissa.
+
+38
+00:02:36,966 --> 00:02:41,572
+Aiemmin ladattujen tehtävien kanssa työtä voidaan jatkaa rajatusti myös
+
+39
+00:02:41,692 --> 00:02:46,564
+verkkoyhteyden katketessa: tarkistuslistamuutokset ja valmistuminen voidaan
+
+40
+00:02:46,684 --> 00:02:50,491
+jonottaa paikallisesti ja synkronoida yhteyden palauduttua.
+
+41
+00:02:50,611 --> 00:02:55,017
+Palvelimen normaalit käyttöoikeus- ja ristiriitatarkistukset tehdään
+
+42
+00:02:55,137 --> 00:02:57,280
+edelleen synkronoinnin yhteydessä.
+
+43
+00:03:00,000 --> 00:03:04,634
+Esihenkilö näkee samasta toiminnasta laajemman operatiivisen kokonaisuuden.
+
+44
+00:03:04,754 --> 00:03:09,451
+Hän voi tarkastella käynnissä olevia, valmistuneita ja peruttuja suorituksia
+
+45
+00:03:09,571 --> 00:03:14,078
+eri toimipisteissä, seurata vastuita ja tehtävätiloja, tunnistaa riskissä
+
+46
+00:03:14,198 --> 00:03:18,896
+tai myöhässä olevat suoritukset sekä avata tehtävätason tiedot ja todisteet.
+
+47
+00:03:19,016 --> 00:03:22,762
+Tilannekuvaa ei siis tarvitse rakentaa erillisillä viesteillä
+
+48
+00:03:22,882 --> 00:03:23,713
+kenttätiimiltä.
+
+49
+00:03:26,100 --> 00:03:29,920
+Pelkkä tehtävän suorittaminen ei kuitenkaan vielä riitä.
+
+50
+00:03:30,040 --> 00:03:34,142
+Samaan operatiiviseen kontekstiin liittyvät myös poikkeamat,
+
+51
+00:03:34,262 --> 00:03:36,604
+perusraportointi ja jäljitettävyys.
+
+52
+00:03:36,724 --> 00:03:41,530
+ArkSpecilla voidaan nostaa esiin myöhässä oleva työ ja riskissä olevat
+
+53
+00:03:41,650 --> 00:03:46,244
+suoritukset, seurata poikkeamia tutkinnasta ratkaisuun ja säilyttää
+
+54
+00:03:46,364 --> 00:03:49,832
+tapahtumahistoria siitä, kuka teki mitä ja milloin.
+
+55
+00:03:49,952 --> 00:03:54,828
+Näin ketju pysyy yhtenäisenä: suoritus, tehtävä, poikkeama, raportti ja
+
+56
+00:03:54,948 --> 00:03:55,813
+tapahtumaloki.
+
+57
+00:03:58,067 --> 00:04:02,458
+Tämä on mielestäni yksi ArkSpecin tärkeimmistä ominaisuuksista.
+
+58
+00:04:02,578 --> 00:04:07,471
+Sisäinen operatiivinen näkyvyys ja asiakkaalle annettava näkyvyys ovat
+
+59
+00:04:07,591 --> 00:04:09,404
+tarkoituksella eri asioita.
+
+60
+00:04:09,524 --> 00:04:14,560
+Asiakkaalle myönnetään pääsy vain sallittuihin sijainteihin, ja näkyviin
+
+61
+00:04:14,680 --> 00:04:18,713
+julkaistaan vain erikseen hyväksytyt ja julkaistut tiedot.
+
+62
+00:04:18,833 --> 00:04:23,797
+Tässä esimerkissä asiakas näkee: yhden toimipisteen, yhden valmistuneen
+
+63
+00:04:23,917 --> 00:04:29,024
+suorituksen, kaksi julkaistua todistetta ja yhden ratkaistun poikkeaman —
+
+64
+00:04:29,144 --> 00:04:31,960
+mutta ei sisäistä operatiivista sisältöä.
+
+65
+00:04:32,080 --> 00:04:37,044
+Näin läpinäkyvyyttä voidaan lisätä ilman, että asiakkaalle avataan koko
+
+66
+00:04:37,164 --> 00:04:38,548
+sisäinen järjestelmä.
+
+67
+00:04:38,668 --> 00:04:43,489
+Demossa käytetty data ja todentava aineisto ovat havainnollistavia ja
+
+68
+00:04:43,609 --> 00:04:44,419
+synteettisiä.
+
+69
+00:04:44,539 --> 00:04:49,217
+Osa aineistosta on luotu tekoälyavusteisesti ChatGPT:n avulla, eikä
+
+70
+00:04:49,337 --> 00:04:51,580
+esityksessä käytetä asiakasdataa.
+
+71
+00:04:54,067 --> 00:04:57,041
+Sama periaate jatkuu kaikissa rooleissa.
+
+72
+00:04:57,161 --> 00:05:02,841
+Organisaation ylläpitäjä, esihenkilö, työntekijä ja asiakasnäkymän käyttäjä
+
+73
+00:05:02,961 --> 00:05:04,620
+eivät näe samaa tietoa.
+
+74
+00:05:04,740 --> 00:05:09,183
+Työntekijä näkee hänelle tai hänen tiimilleen rajatun työn.
+
+75
+00:05:09,303 --> 00:05:12,818
+Esihenkilö saa laajemman operatiivisen näkymän.
+
+76
+00:05:12,938 --> 00:05:16,763
+Ylläpitäjä hallitsee rakennetta ja käyttöoikeuksia.
+
+77
+00:05:16,883 --> 00:05:21,945
+Asiakas saa vain erikseen myönnetyt sijainnit ja julkaistut tiedot.
+
+78
+00:05:22,065 --> 00:05:27,668
+Vähimpien oikeuksien periaate on siis osa tuotteen toimintamallia, ei vain
+
+79
+00:05:27,788 --> 00:05:29,447
+tekninen yksityiskohta.
+
+80
+00:05:32,100 --> 00:05:35,766
+Pilotissa emme lähtisi digitalisoimaan kaikkea kerralla.
+
+81
+00:05:35,886 --> 00:05:40,770
+Valitsisimme yhden toistuvan työnkulun, jolla on selkeä omistaja ja selkeä
+
+82
+00:05:40,890 --> 00:05:42,054
+todentamisvaatimus.
+
+83
+00:05:42,174 --> 00:05:46,855
+Mallintaisimme tarvittavat toimipisteet ja prosessin, ottaisimme mukaan
+
+84
+00:05:46,975 --> 00:05:51,723
+pienen oikean tiimin, suorittaisimme työn käytännössä ja tarkastelisimme
+
+85
+00:05:51,843 --> 00:05:55,645
+lopputulosta sekä esihenkilön että asiakkaan näkökulmasta.
+
+86
+00:05:55,765 --> 00:06:00,581
+Pilotissa haluamme nähdä esimerkiksi: havaitaanko poikkeamat aikaisemmin?
+
+87
+00:06:00,701 --> 00:06:03,758
+Vähentääkö todentava aineisto jälkiselvittelyä?
+
+88
+00:06:03,878 --> 00:06:07,680
+Ja sopiiko työntekijän käyttöpolku todelliseen työrytmiin?
+
+89
+00:06:10,067 --> 00:06:13,262
+Seuraava askel voidaan siis pitää hyvin pienenä.
+
+90
+00:06:13,382 --> 00:06:18,440
+Valitaan yksi oikea työnkulku, määritetään pilotti, tehdään työ käytännössä
+
+91
+00:06:18,560 --> 00:06:19,960
+ja kerätään todisteet.
+
+92
+00:06:20,080 --> 00:06:25,208
+Sen jälkeen katsotaan tulokset yhdessä ja päätetään vasta niiden perusteella
+
+93
+00:06:25,328 --> 00:06:27,279
+mahdollisesta laajentamisesta.
+
+94
+00:06:27,399 --> 00:06:32,182
+Tavoitteena ei ole todistaa kaikkea yhdellä kertaa — vaan todentaa yksi
+
+95
+00:06:32,302 --> 00:06:35,013
+oikea operatiivinen ketju alusta loppuun.
+
+96
+00:06:38,133 --> 00:06:40,247
+Kiitos ajastanne.
